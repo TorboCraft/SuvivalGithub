@@ -1,7 +1,6 @@
-[gd_scene load_steps=13 format=3 uid="uid://bqpgaxmpg0aum"]
+[gd_scene load_steps=12 format=3 uid="uid://bqpgaxmpg0aum"]
 
 [ext_resource type="PackedScene" uid="uid://dc64xg1yau4r5" path="res://Scene/player.tscn" id="1_qbx6n"]
-[ext_resource type="Resource" uid="uid://dwkmjvnx40bwk" path="res://inventory/playerinv.tres" id="2_5mjwk"]
 [ext_resource type="Texture2D" uid="uid://cmegmet2jbu3a" path="res://art/survivalgame-terrian-defult.png" id="2_a8jlg"]
 [ext_resource type="Texture2D" uid="uid://cvmqyheyh75vf" path="res://art/survivalgame-terrian-cliffs.png" id="3_b4o44"]
 [ext_resource type="Texture2D" uid="uid://c7xq0mn14om0u" path="res://art/survivalgame-trees.png" id="4_hxrpp"]
@@ -261,7 +260,6 @@ sources/3 = SubResource("TileSetAtlasSource_asb0y")
 
 [node name="player" parent="." instance=ExtResource("1_qbx6n")]
 position = Vector2(39, 157)
-inv = ExtResource("2_5mjwk")
 
 [node name="TileMap" type="TileMap" parent="."]
 scale = Vector2(1.04008, 1.0315)
